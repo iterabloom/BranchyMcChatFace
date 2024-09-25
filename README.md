@@ -39,7 +39,7 @@ This application is an AI-powered chat interface featuring conversation branchin
 
 1. Clone the repository:
    ```
-   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/iterabloom/BranchyMcChatFace)
+   git clone [https://github.com/iterabloom/BranchyMcChatFace.git](https://github.com/iterabloom/BranchyMcChatFace)
    cd BranchyMcChatFace
    ```
 
