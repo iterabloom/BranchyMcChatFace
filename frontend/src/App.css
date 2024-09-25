@@ -1,0 +1,69 @@
+.message {
+  position: relative;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.user {
+  background-color: #e6f2ff;
+}
+
+.ai {
+  background-color: #f0f0f0;
+}
+
+.edit-button, .regenerate-button, .nav-button {
+  display: none;
+  position: absolute;
+  top: 5px;
+  padding: 2px 5px;
+  font-size: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.message:hover .edit-button,
+.message:hover .regenerate-button,
+.message:hover .nav-button {
+  display: inline-block;
+}
+
+.nav-button-left {
+  left: 5px;
+}
+
+.nav-button-right {
+  left: 30px;
+}
+
+.edit-button, .regenerate-button {
+  right: 5px;
+}
+
+.chat-container {
+  height: 70vh;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.input-container select,
+.input-container input,
+.input-container button {
+  margin-right: 5px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
